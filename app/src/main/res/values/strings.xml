@@ -4,10 +4,10 @@
     <string name="stdCal">Standard Calculator</string>
     <string name="sciCal">Scientific Calculator</string>
     <string name="unitCal">Unit Converter</string>
-    <string name="FullCal">Calculator App</string>
+    <string name="FullCal">E Calculator</string>
     <string name="title_activity_standard_cal">StandardCal</string>
     <string name="title_activity_scientific_cal">ScientificCal</string>
-    <string name="title_activity_unit_coverter">UnitCoverter</string>
+    <string name="title_activity_unit_coverter">UnitConverter</string>
     <string name="clear">C</string>
     <string name="backspace">⌫</string>
     <string name="divide">÷</string>
@@ -55,7 +55,7 @@
 
     <string-array name="temperature">
         <item>Celsius</item>
-        <item>Farenheit</item>
+        <item>Fahrenheit</item>
         <item>Kelvin</item>
     </string-array>
 
