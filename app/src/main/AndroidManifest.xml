@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="emmag.calculatorapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/calcicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:targetApi="m">
+
+        <activity
+            android:name="emmag.calculatorapp.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="emmag.calculatorapp.MainActivity"
+            android:label="@string/title_activity_standard_cal"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="emmag.calculatorapp.StandardCal"
+            android:label="@string/title_activity_standard_cal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="emmag.calculatorapp.ScientificCal"
+            android:label="@string/title_activity_scientific_cal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="emmag.calculatorapp.UnitCoverter"
+            android:label="@string/title_activity_unit_coverter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="emmag.calculatorapp.UnitArea"
+            android:label="@string/title_activity_unit_area"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="emmag.calculatorapp.UnitLength"
+            android:label="@string/title_activity_unit_length"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="emmag.calculatorapp.UnitWeight"
+            android:label="@string/title_activity_unit_weight"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="emmag.calculatorapp.UnitTemperature"
+            android:label="@string/title_activity_unit_temperature"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="emmag.calculatorapp.History"
+            android:label="@string/title_activity_history"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
